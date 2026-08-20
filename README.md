@@ -1,30 +1,30 @@
-# Project 7 – Monitoring DevOps Applications Using Prometheus and Grafana
+# Project 7 â€“ Monitoring DevOps Applications Using Prometheus and Grafana
 
-## ?? Project Overview
+## Project Overview
 
 This project demonstrates how to monitor DevOps applications and Windows system resources using Prometheus, Windows Exporter, and Grafana.
 
 Prometheus collects and stores metrics, Windows Exporter exposes Windows system metrics, and Grafana provides visualization through a monitoring dashboard.
 
-## ??? Architecture
+## Architecture
 
 Windows System
-¦
+Â¦
 ?
 Windows Exporter
-¦
-¦ Metrics :9182
+Â¦
+Â¦ Metrics :9182
 ?
 Prometheus :9090
-¦
-¦ PromQL
+Â¦
+Â¦ PromQL
 ?
 Grafana :3000
-¦
+Â¦
 ?
 Monitoring Dashboard
 
-## ??? Technologies Used
+## Technologies Used
 
 * Prometheus 3.13.2
 * Grafana
@@ -33,7 +33,7 @@ Monitoring Dashboard
 * Windows
 * PowerShell
 
-## ?? Prometheus Configuration
+## Prometheus Configuration
 
 Prometheus is configured with a 15-second scrape interval.
 
@@ -44,7 +44,7 @@ Prometheus is configured with a 15-second scrape interval.
 |prometheus|localhost:9090|Prometheus self-monitoring|
 |windows|localhost:9182|Windows system metrics|
 
-## ?? Monitoring
+## Monitoring
 
 The Grafana dashboard includes:
 
@@ -55,11 +55,11 @@ The Grafana dashboard includes:
 * Prometheus Scrape Duration
 * Windows Exporter metrics
 
-## ?? PromQL Example
+## PromQL Example
 
 `promql
 up
-????? Author
+Author
 
 Pranjali S. Malode
 
